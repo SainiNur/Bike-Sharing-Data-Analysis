@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Load dataset
-hour_df = pd.read_csv("dashboard/hour fixed.csv")
+hour_df = pd.read_csv("C:\SANS\knowledge\DICODING\submission\dashboard\hour fixed.csv")
 hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 # Add sidebar
